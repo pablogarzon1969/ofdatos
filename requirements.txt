@@ -1,0 +1,28 @@
+urllib3 == 1.26.6
+asyncio == 3.4.3
+
+# testing
+pytest == 6.2.5
+pytest-mock == 3.6.1
+requests == 2.26.0
+
+#database
+SQLAlchemy == 1.4.23
+pymssql == 2.2.2
+aioodbc == 0.3.3
+pyodbc == 4.0.32
+
+pydantic == 1.8.2
+pydantic[email]
+
+pandas == 1.3.4 #handling data
+openpyxl == 3.0.9 #open xlsx files
+suds-py3 == 1.4.5.0 #send email library
+tabulate == 0.8.9 #export df to txt
+xlrd == 2.0.1 #for xls
+xgboost == 1.4.2
+
+#Librerias modelo
+
+#joblib
+#sklearn

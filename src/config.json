@@ -1,0 +1,43 @@
+{
+    "DataBaseMSSQL": {
+
+        "DRIVER":"SQL Server",
+        "DRIVERODBC":"ODBC Driver 17 for SQL Server",
+        "SERVER": "DC2TVDSIT1\\PRUEBASSQL2014",
+        "DATABASE": "SIT_MINERIA",
+        "UID": "uprueba",
+        "PWD": "123"
+
+    }
+    ,
+    "DataBaseSitCentral": {
+        "DRIVER":"SQL Server",
+        "DRIVERODBC":"ODBC Driver 17 for SQL Server",
+        "SERVER": "DC2TVDSIT1\\PRUEBASSQL2014",
+        "DATABASE": "SIT_CENTRAL",
+        "UID": "uprueba",
+        "PWD": "123"
+
+    }
+    ,
+    "DebugConfiguration": {
+        "_comment": "Debug : 0 ejecuta debug, de lo contrario no",
+        "DEBUG" : 0,
+        "LOG_FILE_PATH" : "\\\\dc2tvaftp1\\IntercambioTerceros\\AUTOS\\SOAT_FRAUDE\\logs\\",
+        "PROJECT_NAME": "FRAUDE"
+    }
+    ,
+    "DefaulEmailSender": {
+
+        "END_POINT": "https://pmms.axacolpatria.co:4197/AXAColpatria/Utilidad/Notificaciones/Notificaciones.svc?wsdl",
+        "CANAL" : "SOAT",
+        "ID_TRANSACCION": "0",
+        "USER": "FRAUDE",
+        "SUBJECT": "NOTIFICACION FRAUDE - TERMINACION INCORRECTA DE PROCESO",
+        "NOTIFICATION_SENDER": "AXAColpatria.Info@axacolpatria.co",
+        "MSJ" : "Envío por configuración json",
+        "RECIPIENTS": "magomezm@axacolpatria.co",
+        "PROCESO": "WS",
+        "NOMBRE_PROYECTO" : "FRAUDE"
+    }
+}
